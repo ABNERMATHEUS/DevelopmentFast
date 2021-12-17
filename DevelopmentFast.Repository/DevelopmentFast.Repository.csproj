@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageProjectUrl>https://github.com/ABNERMATHEUS/DevelopmentFast.Repository</PackageProjectUrl>
+    <PackageIcon>Logo.png</PackageIcon>	  
+    <RepositoryUrl>https://github.com/ABNERMATHEUS/DevelopmentFast.Repository</RepositoryUrl>
+    <RepositoryType>git.</RepositoryType>	  
+    <Company>Abner Matheus</Company>	
+	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Description>A library to help in rapid development to make CRUD with Entity Framework as ORM, using Repository Pattern Generic.</Description>
+    <Authors>Abner Matheus</Authors>
+    <PackageReleaseNotes>1.0.0</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Logo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="6.0.1" />
+  </ItemGroup>
+
+</Project>
