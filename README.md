@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://github.com/ABNERMATHEUS/InfraDotNet/blob/main/Logo.svg" width="320" alt="Logo" /></a>
+  <img src="https://github.com/ABNERMATHEUS/DevelopmentFast.Repository/blob/master/Logo.svg" width="320" alt="Logo" /></a>
 </p>
 
-# InfraDotNet
+# Development Fast - Repository
 
 ### O que é ?
 
@@ -24,13 +24,3 @@
 
 </aside>
 
-
-### Roadmap
-
-<aside>
-<ul>
-  <li>Repository CRUD com Entidade de auditoria - Banco de dados</li>
-  <li>Armazenamento de arquivo CRUD - Azure Blob </li>
-  <li>Cache - Redis </li>
-</ul>
-</aside>
